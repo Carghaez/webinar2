@@ -75,7 +75,6 @@ echo '<br />';
 echo 'La velocità è ' . $SallyCarrera->getVelocita();
 
 
-
 class Data {
 
   private $giorno;
@@ -120,3 +119,4 @@ $prova2->setData('15', '02', '1990');
 
 echo '<br />'. $prova->getData();
 echo '<br />'. $prova->dateDiff($prova2);
+
