@@ -1,0 +1,72 @@
+main {
+    margin-top: 50px;
+}
+
+.card {
+    width: 300px;
+    margin: 10px;
+    float: left;
+    position: relative;
+    font-family: 'Roboto Condensed', sans-serif;
+    box-sizing: border-box;
+    overflow: hidden;
+
+    /* Specifiche material design */
+    border-radius: 2px;
+    background-color: #fff;
+    box-shadow: 0 1px 3px 0 rgba(0,0,0, .2),
+    0 1px 1px 0 rgba(0,0,0, .14),
+    0 2px 1px -1px rgba(0,0,0, .12);
+}
+
+.card * {
+    box-sizing: border-box;
+}
+
+.card .card-header {
+    width: 100%;
+    white-space: nowrap;
+    padding-top: 24px;
+    padding-bottom: 16px;
+    padding-left: 16px;
+    padding-right: 16px;
+    color: #333;
+}
+
+.card .card-header .card-title {
+    font-size: 1.2em;
+    font-family: inherit;
+    line-height: normal;
+    vertical-align: middle;
+    white-space: normal;
+}
+
+.card .card-header .card-text-ellipsis {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.card .card-header .card-title>.card-subtitle {
+    font-size: 0.75em;
+    opacity: 0.75;
+}
+
+
+.card .card-header .card-title>.card-subtitle {
+    margin-bottom: 5px;
+}
+
+
+.card .card-media {
+    border-top: 1px solid rgba(0,0,0, .2);
+    border-bottom: 1px solid rgba(0,0,0, .2);
+}
+
+.card .card-media > img {
+    max-width: 100%;
+    width: auto;
+    height: 450px;
+    margin: 0 auto;
+    display: block;
+}
